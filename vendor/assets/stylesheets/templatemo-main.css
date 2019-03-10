@@ -120,11 +120,19 @@ a:hover { color: #FF0; }
   -webkit-animation-name: fadeInRight;
           animation-name: fadeInRight;
 }
+.center{
+  text-align: center;
+}
 
+.new-header-text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
 
 .primary-button a {
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #96969624;
   padding: 15px 24px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -241,7 +249,9 @@ h4, .h4 {
   margin: 20px auto 15px auto;
 }
 
-
+.sidlogo{
+  max-height: 31rem;
+}
 
 .projects-content {
   padding-top: 20vh;
@@ -368,6 +378,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
+  min-height: 50vh;
   background-image: url(5th-section.jpg);
 }
 
@@ -434,7 +445,7 @@ section {
 footer {
   text-align: center;
   background-color: #282b2f;
-  padding: 70px 0px;
+  padding: 46px 0px 0;
 }
 
 footer .primary-button {

@@ -12,4 +12,9 @@
  *
  *= require_tree .
  *= require_self
+ *= require bootstrap.min
+ *= require font-awesome
+ *= require hero-slider
+ *= require templatemo-main
+ *= require owl-carousel
  */

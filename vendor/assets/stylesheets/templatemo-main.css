@@ -260,6 +260,8 @@ h4, .h4 {
 
 .projects-content .item img {
   width: 100%;
+  max-height: 18rem;
+  min-height: 18rem;
 }
 
 .projects-content .item {
@@ -581,6 +583,12 @@ body.lb-disable-scrolling {
   text-align: center;
   line-height: 0;
   font-weight: normal;
+}
+
+.project-header {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
 }
 
 .lightbox .lb-image {
